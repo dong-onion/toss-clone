@@ -24,7 +24,6 @@ window.addEventListener('scroll', () => {
   }
 
   if (2000 < window.pageYOffset && window.pageYOffset < 3200) {
-    console.log($span2.style.opacity);
     $span2.style.opacity = (window.pageYOffset - 2000) / 1200;
     $span2.style.transform = `translateY(${
       -0.1 * (window.pageYOffset - 2200)
